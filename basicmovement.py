@@ -15,6 +15,11 @@ tello.rotate_clockwise(90)
 tello.rotate_clockwise(30)
 tello.rotate_clockwise(90)
 
-tello.move_forward(100)
+tello.move_backward(100)
+tello.rotate_clockwise(90)
 
-tello.land()
+tello.move_right(10)
+
+tello.flip_forward()
+
+tello.land_()
