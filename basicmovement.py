@@ -22,4 +22,4 @@ tello.move_right(10)
 
 tello.flip_forward()
 
-tello.land_()
+tello.land()
