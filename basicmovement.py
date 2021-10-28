@@ -5,6 +5,9 @@ tello = Tello()
 tello.connect()
 tello.takeoff()
 
+sleep(1)
+tello.move_up(91)
+
 sleep(1.5)
 tello.move_forward(304.8)
 tello.rotate_counter_counter_clcokwise(90)
