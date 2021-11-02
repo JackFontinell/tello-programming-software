@@ -5,6 +5,9 @@ aspeed = 26 # Angular Velocity, Degrees/sec
 uspeed = 26 # Up/Down cm/sec
 ###############################
 
+
+tello.send_rc_control
+
 from djitellopy import Tello
 from time import sleep
 tello = Tello()
