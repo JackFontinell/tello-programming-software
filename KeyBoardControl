@@ -26,9 +26,7 @@ def getKeyboardInput():
     if kp.getKey("q"): tello.land()
     if kp.getKey("e"): tello.takeoff()
 
-
     return[lr, fb, ud, yv]
-
 
 while True:
     vals = getKayboardInput()
